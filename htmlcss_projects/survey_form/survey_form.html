@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey_form.css">
+  </head>
+  <body>
+    <h1 id="title">
+        Many airlines are involved in a continuing effort to improve services to passengers. Please help us by giving an evaluation of your airline in-flight experience.
+    </h1>
+    
+    <form id="form" class="input-elements">
+      <div>
+          <label>
+              In which cabin of the aircraft are (were) you seated?
+              <br>
+              <input type="radio" name="cabin" value="first_class"> First Class
+              <br>
+              <input type="radio" name="cabin" value="business"> Business
+              <br>
+              <input type="radio" name="cabin" value="economy"> Coach/Economy
+          </label>
+      </div>
+      
+      <div>
+          <label>
+              Please check which applies to this trip...
+              <br>
+              <input type="radio" name="trip_type" value="mileage_award"> Flying on a frequent flyer mileage award ticket
+              <br>
+              <input type="radio" name="trip_type" value="upgraded"> Upgraded (complimentary or using a mileage award)
+              <br>
+              <input type="radio" name="trip_type" value="neither"> Neither of the above
+          </label>
+      </div>
+      
+      <div>
+          <label>
+              About how full was your cabin of the airplane?
+              <br>
+              <input type="radio" name="cabin_fullness" value="less_than_half"> Less than 1/2 full
+              <br>
+              <input type="radio" name="cabin_fullness" value="half_to_three_quarters"> 1/2 to 3/4 full
+              <br>
+              <input type="radio" name="cabin_fullness" value="more_than_three_quarters"> More than 3/4 full
+              <br>
+              <input type="radio" name="cabin_fullness" value="full"> 100% full
+          </label>
+      </div>
+
+      <div>
+        <label>Considering all of the above features, what is your
+          OVERALL rating of the flight?
+          <br>
+          <textarea></textarea>
+        </label>
+      </div>
+
+      <div>
+        <label>CUsing the same point scale, all things considered, how would you rate the value for the money of the transportation and service you received on this flight?
+          <br>
+          <textarea></textarea>
+        </label>
+      </div>
+    </form>
+
+    <p id="description">Thank you for taking the time to help us improve the services.</p>
+
+  
+  </body>
+</html>
